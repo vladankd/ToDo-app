@@ -5,8 +5,15 @@ Creating small to do application
 A list of things to do
 Only front end vanila JS
 
-TODO functionalities
+# Functionalities added
 
 - create list items
 - search list items
-- edit and delete list items
+- delete list items
+
+TODO ideas
+
+- edit item text
+- add time stumps
+
+<!-- Later connect to the DB -->
