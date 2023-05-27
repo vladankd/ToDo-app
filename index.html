@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo app</title>
+    <link
+      rel="shortcut icon"
+      href="./Assets/IMG/todo_icoin.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header id="main_header">
+      <h1 id="main_heading">ToDo's list app</h1>
+      <div class="header_controls">
+        <label for="searchbox">search: </label>
+        <input type="text" name="searchbox" id="searchbox" />
+      </div>
+    </header>
+    <main class="container">
+      <div class="input_form_container">
+        <form action="#" method="get" id="input_form">
+          <h2 class="title">Add list item</h2>
+          <input type="text" name="main_input_field" id="main_input_field" />
+          <button class="submit_btn">Add item</button>
+        </form>
+      </div>
+      <section class="items_container">
+        <h2 class="title">Items</h2>
+        <ul class="list_group">
+          <li class="list_group_item">
+            Test item <button class="del_btn">X</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="./Scripts/main.js"></script>
+  </body>
+</html>

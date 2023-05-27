@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "IBM_VGA_True_437";
+  src: url(../Assets/Fonts/Flexi_IBM_VGA_True_437.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+:root {
+  /* box sizing default */
+  box-sizing: border-box;
+
+  /* Color variables */
+  --main-header-color: #123;
+  --Logo-text-color: #20f00d;
+
+  /* Font variables */
+  --logo-font: "IBM_VGA_True_437";
+  --main-font-family: "Courier New", Courier, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.125em;
+  font-family: var(--main-font-family);
+}
+
+/* Page styling */
+
+#main_header {
+  padding: 1.5em;
+  background-color: var(--main-header-color);
+}
+#main_heading {
+  text-align: center;
+  color: var(--Logo-text-color);
+  font-family: var(--logo-font);
+  letter-spacing: 0.3rem;
+}
+
+.header_controls {
+  float: right;
+  color: var(--Logo-text-color);
+}
+
+.container {
+  max-width: 580px;
+  margin: 1em auto;
+  padding: 1.5em;
+  border: 1px solid black;
+  border-radius: 0.2em;
+  /* box-shadow: 0 0 1px 3px #20f00d5e; */
+}
+
+.is-hidden {
+  display: none;
+}
